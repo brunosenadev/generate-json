@@ -3,8 +3,8 @@ from json import dump
 from time import sleep
 
 def generate_json():
-    base_path = 'C:\\Users\\User\\Documents\\b2-frotas-page\\public\\EmpresasImagensWebp'
-    output_file = 'C:\\Users\\User\\Documents\\b2-frotas-page\\public\\empresaswebp.json'
+    base_path = 'diretorio\\de\\origem'
+    output_file = 'diretorio\\de\\destino'
     list = []
     
     for folder in listdir(base_path):
